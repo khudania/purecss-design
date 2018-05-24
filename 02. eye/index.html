@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eye Icon</title>
+    <style>
+        .eye {
+            margin: auto;
+            margin-top: 200px;
+            width: 70px;
+            height: 70px;
+            border: solid 2px #333;
+            border-radius: 80% 10%;
+            transform: rotate(45deg);
+        }
+
+        .eye:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border: solid 2px #000;
+            border-radius: 50%;
+            left: 20px;
+            top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="eye"></div>
+</body>
+
+</html>
